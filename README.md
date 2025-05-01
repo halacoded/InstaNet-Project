@@ -4,7 +4,7 @@ A networked application developed for Kuwait University's Computer Networks cour
 
 ## 🔄 Project Phases
 1. **[Phase 1: Socket Programming](#phase-1)** -Socket Programing Introduction and programming environment setup 
-2. **[Phase 1: Networked Application](#phase-2)** -Completing the development of a Networked Application (InstaNet)
+2. **[Phase 2: Networked Application](#phase-2)** -Completing the development of a Networked Application (InstaNet)
 
 ---
 
@@ -21,7 +21,7 @@ A networked application developed for Kuwait University's Computer Networks cour
 
 
 ## Phase 2
-
+**TCP Networked Chat Application**  
 
 ## 👥 Contributors
 - Hala Almutairi
