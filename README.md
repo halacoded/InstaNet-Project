@@ -1,10 +1,10 @@
 # InstaNet Project (Phases 1 & 2)
 
-A networked application developed for Kuwait University's Computer Networks course (CpE-356).
+A networked application developed for Kuwait University's Computer Networks course (CpE-356) with Dr. Suood Alroomi.
 
 ## 🔄 Project Phases
 1. **[Phase 1: Socket Programming](#phase-1)** -Socket Programing Introduction and programming environment setup 
-2. Phase 2: Completing the development of a Networked Application (InstaNet)
+2. **[Phase 1: Networked Application](#phase-2)** -Completing the development of a Networked Application (InstaNet)
 
 ---
 
@@ -18,3 +18,11 @@ A networked application developed for Kuwait University's Computer Networks cour
 - Localhost communication on port 12345
 
 📄 **Complete instructions:** [InstaNet-Project-Phase1.pdf](InstaNet-Project-Phase1.pdf)
+
+
+## Phase 2
+
+
+## 👥 Contributors
+- Hala Almutairi
+- Nour Altanaib
