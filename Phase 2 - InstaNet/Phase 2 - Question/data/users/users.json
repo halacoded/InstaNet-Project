@@ -1,0 +1,60 @@
+{
+    "user1": {
+        "password": "123",
+        "friends": [
+            
+        ],
+        "requests": []
+    },
+    "user2": {
+        "password": "123",
+        "friends": [],
+        "requests": []
+    },
+    "user3": {
+        "password": "123",
+        "friends": [
+            
+        ],
+        "requests": []
+    },
+    "user4": {
+        "password": "123",
+        "friends": [],
+        "requests": []
+    },
+    "user5": {
+        "password": "123",
+        "friends": [],
+        "requests": []
+    },
+    "user6": {
+        "password": "123",
+        "friends": [],
+        "requests": []
+    },
+    "user7": {
+        "password": "123",
+        "friends": [],
+        "requests": []
+    },
+    "user8": {
+        "password": "123",
+        "friends": [
+            
+        ],
+        "requests": []
+    },
+    "user9": {
+        "password": "123",
+        "friends": [],
+        "requests": []
+    },
+    "user10": {
+        "password": "123",
+        "friends": [
+           
+        ],
+        "requests": []
+    }
+}
