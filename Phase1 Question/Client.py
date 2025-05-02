@@ -1,3 +1,6 @@
+#2221124948 Nour Altanaib
+#2211112873 Hala Almutairi
+
 import socket
 import customtkinter as ctk
 
@@ -15,7 +18,7 @@ def send_message(entry, textbox):
     # 5. Receive and decode reply.
     received  = client_socket.recv(1024).decode()
     # 6. Show the reply in textbox.
-    textbox.insert("end",received + "\n")
+    textbox.insert('end', f"Server Message: {received}\n")
     # 7. Close the socket.
     client_socket.close()
     pass

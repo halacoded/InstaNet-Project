@@ -1,3 +1,6 @@
+#2221124948 Nour Altanaib
+#2211112873 Hala Almutairi
+
 import socket
 import customtkinter as ctk
 import threading
@@ -6,20 +9,19 @@ import threading
 def handle_client(textbox):
    # TODO implementation goes here
     # 1. Create a socket.
-    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) # Using IPV4, TCP Connection
+    s = socket.socket()
     # 2. Bind it to localhost, port 12345.
     s.bind(('localhost', 12345))
     # 3. Listen for one connection.
     s.listen(1)
     # 4. Accept a client.
-    while true:
-        client_socket, address = s.accept()
+    client_socket, address = s.accept()
     # 5. Receive message from client.
-    message = client_socket.recv(MAX_MEMORY).decode() #MAX_MEMORY returns maximum number of bytes to read from the socket at once.
+    message = client_socket.recv(1024).decode()
     # 6. Show the message in textbox.
     textbox.insert('end', f"Client Message: {message}\n")
     # 7. Send back "Hi Client!" as a reply.
-    client_socket.send(bytes("Hi Client!", 'utf-8'))
+    client_socket.send("Hi Client!".encode())
     # 8. Close connection and socket.
     client_socket.close()
     pass
