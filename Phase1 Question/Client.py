@@ -8,7 +8,7 @@ import customtkinter as ctk
 def send_message(entry, textbox):
     # TODO implementation goes here
     # 1. Create a socket.
-    client_socket = socket.socket()
+    client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     # 2. Connect to localhost, port 12345.
     client_socket.connect(('localhost', 12345))
     # 3. Read message from entry field.

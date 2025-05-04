@@ -9,7 +9,7 @@ import threading
 def handle_client(textbox):
    # TODO implementation goes here
     # 1. Create a socket.
-    s = socket.socket()
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     # 2. Bind it to localhost, port 12345.
     s.bind(('localhost', 12345))
     # 3. Listen for one connection.
@@ -24,6 +24,7 @@ def handle_client(textbox):
     client_socket.send("Hi Client!".encode())
     # 8. Close connection and socket.
     client_socket.close()
+    s.close()
     pass
     
 # === GUI below (already working) ===
