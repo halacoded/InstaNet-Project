@@ -17,7 +17,7 @@ A networked application developed for Kuwait University's Computer Networks cour
 - Server echoes messages with fixed response
 - Localhost communication on port 12345
 
-📄 **Complete instructions:** [InstaNet-Project-Phase1.pdf](InstaNet-Project-Phase1.pdf)
+📄 **Complete instructions:** [Phase1 Question/instaNet-Project-Phase1.pdf](InstaNet-Project-Phase1)
 
 <p align="center">
     <img src="Phase1 Question/test-photos/Client-window.png" alt="Client Window" width="400">
@@ -33,10 +33,10 @@ A networked application developed for Kuwait University's Computer Networks cour
 - **Login**: Users can log in with predefined credentials  
 - **Friend Requests**: Send and receive friend requests between users  
 - **Private Messaging (DMs)**: Send and receive text messages between friends  
-- **Image Posting**: Share images with captions as posts  
+- **Image Posting**: Share images with captions as posts  2
 - **Image in DMs**: Share images within private messages
 
-📄 **Complete instructions:** [InstaNet-Project-Phase2.pdf](Phase 2 - InstaNet/Project - Phase 2_.pdf)
+📄 **Complete instructions:** [Phase 2 - InstaNet/Project - Phase 2_.pdf](InstaNet-Project-Phase2)
 
 <p align="center">
     <img src="Phase1 Question/test-photos/Login-Window-Phase2.png" alt="Client Window" width="400">>
