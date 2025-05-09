@@ -13,8 +13,12 @@ def find_available_port(host: str = DEFAULT_HOST, start_port: int = DEFAULT_PORT
     Find an available port in the given range.
     """
     # TODO: Loop through the port range and use `is_port_available` to find a free port.
+    for port in range(start_port, max_port):
+        if is_port_available(port, host):
     # TODO: Return the first available port found.
+            return port
     # TODO: Raise RuntimeError if no available port is found in the given range.
+    raise RuntimeError("no available port is found in the given range.")
     pass
 
 def is_port_available(port: int, host: str = DEFAULT_HOST) -> bool:
@@ -22,19 +26,39 @@ def is_port_available(port: int, host: str = DEFAULT_HOST) -> bool:
     Check if a port is available for use.
     """
     # TODO: Attempt to bind a socket to the given host and port.
+    is_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    try:
     # TODO: If binding succeeds, close the socket and return True.
+        is_socket.bind((host, port))
+        is_socket.close()
+        return True
     # TODO: If binding fails due to OSError, return False.
+    except OSError:
+            return False
     pass
 
 def create_server_socket(host: str = DEFAULT_HOST, port: Optional[int] = None) -> Tuple[socket.socket, int]:
     """
     Create and bind a server socket.
     """
+    server_socket = None
+    try:
     # TODO: If port is None, find an available port using `find_available_port`.
+        if port is None:
+            port = find_available_port()
     # TODO: Create a TCP socket and allow reuse of the address.
+        server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
     # TODO: Bind the socket and start listening.
+        server_socket.bind((host, port))
+        server_socket.listen()
     # TODO: Return the socket and the port.
+        return server_socket, port
     # TODO: On error, close the socket and raise RuntimeError with details.
+    except Exception as e:
+        if server_socket:
+            server_socket.close()
+        raise RuntimeError(f"Error creating server socket: {e}")
     pass
 
 def create_client_socket(host: str = DEFAULT_HOST, port: int = DEFAULT_PORT, 
@@ -43,9 +67,19 @@ def create_client_socket(host: str = DEFAULT_HOST, port: int = DEFAULT_PORT,
     Create and connect a client socket with retry logic.
     """
     # TODO: Attempt to connect to the server in a loop, retrying on failure.
+    for attempt in range(max_retries):
+        try:
+            client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            client_socket.connect((host, port))
     # TODO: On successful connection, return the socket.
+            return client_socket
     # TODO: Print retry attempts and wait between retries.
+        except socket.error as e:
+            print(f"retry attempt: {attempt + 1} Error: {e}")
+            time.sleep(retry_delay)
     # TODO: Raise RuntimeError if all retries fail or if unexpected error occurs.
+    raise RuntimeError(f"Error creating client socket")
+
     pass
 
 def send_json_message(sock: socket.socket, message: Dict[str, Any]) -> None:
