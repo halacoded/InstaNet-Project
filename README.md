@@ -36,7 +36,7 @@ A networked application developed for Kuwait University's Computer Networks cour
 - **Image in DMs**: Share images within private messages
 
 <p align="center">
-    <img src="Phase1 Question/test-photos/Client-window.png" alt="Client Window" width="400">>
+    <img src="Phase1 Question/test-photos/Login-Window-Phase2.png" alt="Client Window" width="400">>
 </p>
 
 ## 👥 Contributors
