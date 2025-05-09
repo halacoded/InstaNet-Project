@@ -28,6 +28,17 @@ A networked application developed for Kuwait University's Computer Networks cour
 ## Phase 2: Networked Application
 **TCP Networked Chat Application**  
 
+### Features  
+- **Login**: Users can log in with predefined credentials  
+- **Friend Requests**: Send and receive friend requests between users  
+- **Private Messaging (DMs)**: Send and receive text messages between friends  
+- **Image Posting**: Share images with captions as posts  
+- **Image in DMs**: Share images within private messages
+
+<p align="center">
+    <img src="Phase1 Question/test-photos/Client-window.png" alt="Client Window" width="400">>
+</p>
+
 ## 👥 Contributors
 - Hala Almutairi
 - Nour Altanaib
