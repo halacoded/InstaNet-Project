@@ -45,20 +45,20 @@ A networked application developed for Kuwait University's Computer Networks cour
 
 #### Home
 <p align="center">
-    <img src="Phase1 Question/test-photos/Phase2-Home.png" alt="Home Feed" width="400">
-    <img src="Phase1 Question/test-photos/Phase2-Feed.png" alt="Posts Feed" width="400">
+    <img src="Phase1 Question/test-photos/Phase2-Home.png" alt="Home Feed" width="300" height="200">
+    <img src="Phase1 Question/test-photos/Phase2-Feed.png" alt="Posts Feed" width="300" height="200">
 </p>
 
 #### Friend System
 <p align="center">
-    <img src="Phase1 Question/test-photos/Phase2-Acept-Friend.png" alt="Accept Friend Request" width="400">
-    <img src="Phase1 Question/test-photos/Phase2-After-Acept-Friend.png" alt="Friends List" width="400">
+    <img src="Phase1 Question/test-photos/Phase2-Acept-Friend.png" alt="Accept Friend Request" width="400" height="200">
+    <img src="Phase1 Question/test-photos/Phase2-After-Acept-Friend.png" alt="Friends List" width="400" height="200">
 </p>
 
 #### Messaging
 <p align="center">
-    <img src="Phase1 Question/test-photos/Phase2-User1-MSG.png" alt="Message Interface" width="400">
-    <img src="Phase1 Question/test-photos/Phase2-ReplayMSG.png" alt="Message Reply" width="400">
+    <img src="Phase1 Question/test-photos/Phase2-User1-MSG.png" alt="Message Interface" width="400" height="200">
+    <img src="Phase1 Question/test-photos/Phase2-ReplayMSG.png" alt="Message Reply" width="400" height="200">
 </p>
 
 #### Posts & Uploads
