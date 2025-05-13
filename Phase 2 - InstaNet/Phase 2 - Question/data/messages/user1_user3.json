@@ -1,0 +1,16 @@
+[
+    {
+        "sender": "user3",
+        "receiver": "user1",
+        "message": "salam Noor",
+        "timestamp": "2025-05-13T21:40:19.726489",
+        "is_image": false
+    },
+    {
+        "sender": "user1",
+        "receiver": "user3",
+        "message": "Salaam Hala . hru",
+        "timestamp": "2025-05-13T21:43:39.662192",
+        "is_image": false
+    }
+]

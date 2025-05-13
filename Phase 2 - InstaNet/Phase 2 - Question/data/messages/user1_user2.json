@@ -1,0 +1,24 @@
+[
+    {
+        "sender": "user1",
+        "receiver": "user2",
+        "message": "Image",
+        "timestamp": "2025-05-13T21:51:37.954155",
+        "is_image": true,
+        "image_path": "data\\images\\user1_user2_2025-05-13T21-51-37.954155.jpg"
+    },
+    {
+        "sender": "user1",
+        "receiver": "user2",
+        "message": "where can i find these in kuwait noor",
+        "timestamp": "2025-05-13T21:51:57.123134",
+        "is_image": false
+    },
+    {
+        "sender": "user2",
+        "receiver": "user1",
+        "message": "yess halla check eva i think they might have them",
+        "timestamp": "2025-05-13T21:54:04.339937",
+        "is_image": false
+    }
+]

@@ -2,26 +2,31 @@
     "user1": {
         "password": "123",
         "friends": [
-            
+            "user2",
+            "user3"
         ],
         "requests": []
     },
     "user2": {
         "password": "123",
-        "friends": [],
+        "friends": [
+            "user1"
+        ],
         "requests": []
     },
     "user3": {
         "password": "123",
         "friends": [
-            
+            "user1"
         ],
         "requests": []
     },
     "user4": {
         "password": "123",
         "friends": [],
-        "requests": []
+        "requests": [
+            "user1"
+        ]
     },
     "user5": {
         "password": "123",
@@ -40,9 +45,7 @@
     },
     "user8": {
         "password": "123",
-        "friends": [
-            
-        ],
+        "friends": [],
         "requests": []
     },
     "user9": {
@@ -52,9 +55,7 @@
     },
     "user10": {
         "password": "123",
-        "friends": [
-           
-        ],
+        "friends": [],
         "requests": []
     }
 }
